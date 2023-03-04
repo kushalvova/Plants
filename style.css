@@ -47,7 +47,7 @@ body {
     min-width: 23px;
     min-height: 23px;
     margin-bottom: 9px;
-    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/logo_vector.svg);
+    background-image: url(/plants/assets/img/logo_vector.svg);
 }
 .imgSittings {
     background-size: contain;
@@ -94,7 +94,7 @@ a:hover {
 .welcome__img {
     width: 462px;
     height: 424px;
-    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/leafs.png);
+    background-image: url(/plants/assets/img/leafs.png);
 }
 .welcome__wrapper {
     width: 765px;
@@ -171,7 +171,7 @@ a:hover {
 .about__img {
     width: 464px;
     height: 479px;
-    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/houseplant_1.png);
+    background-image: url(/plants/assets/img/houseplant_1.png);
 }
 .service {
     height: 1300px;
@@ -251,22 +251,22 @@ a:hover {
     padding-bottom: 5px;
 }
 .service__item__imgFirst {
-    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/first.png);
+    background-image: url(/plants/assets/img/first.png);
 }
 .service__item__imgSecond {
-    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/second.png);
+    background-image: url(/plants/assets/img/second.png);
 }
 .service__item__imgThird {
-    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/third.png);
+    background-image: url(/plants/assets/img/third.png);
 }
 .service__item__imgFourth {
-    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/fourth.png);
+    background-image: url(/plants/assets/img/fourth.png);
 }
 .service__item__imgFifth {
-    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/fifth.png);
+    background-image: url(/plants/assets/img/fifth.png);
 }
 .service__item__imgSixth {
-    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/sixth.png);
+    background-image: url(/plants/assets/img/sixth.png);
 }
 .prices {
     height: 558px;
@@ -321,10 +321,10 @@ a:hover {
 }
 .accordion__header__img{
     margin-right: 41px;
-    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/price_unactive_btn.svg);
+    background-image: url(/plants/assets/img/price_unactive_btn.svg);
 }
 .accordion__itemShow .accordion__header__img {
-    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/price_active_btn.svg);
+    background-image: url(/plants/assets/img/price_active_btn.svg);
 }
 .accordion__body {
     display: none;
@@ -405,7 +405,7 @@ a:hover {
     margin-top: 35px;
     width: 157px;
     height: 187px;
-    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/small_leafs.png);
+    background-image: url(/plants/assets/img/small_leafs.png);
 }
 .contacts {
     height: 550px;
@@ -417,7 +417,7 @@ a:hover {
     height: 497px;
     margin-top: 53px;
     margin-left: 109px;
-    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/contact_woman_1.png);
+    background-image: url(/plants/assets/img/contact_woman_1.png);
 }
 .contacts h2 {
     margin: 0px;
@@ -439,7 +439,7 @@ a:hover {
     border-radius: 0px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.251);
     cursor: pointer;
-    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/contact_unactive_btn.svg);
+    background-image: url(/plants/assets/img/contact_unactive_btn.svg);
     background-size: 16px ;
     background-repeat: no-repeat;
     background-position: top 17px left 401px;
@@ -450,20 +450,20 @@ a:hover {
     background-color: #C1E698;
     box-shadow: 0px 0px 0px;
     outline: 1px solid #D6E7D2;
-    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/contact_active_btn.svg);
+    background-image: url(/plants/assets/img/contact_active_btn.svg);
 }
 .contacts__selectShow .contacts__select__header {
     background-color: #C1E698;
     box-shadow: 0px 0px 0px;
     outline: 1px solid #D6E7D2;
-    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/contact_active_btn.svg);
+    background-image: url(/plants/assets/img/contact_active_btn.svg);
 }
 .contacts__select__headerCityActive {
     font-size: 16px;
     background-color: #C1E698;
     box-shadow: 0px 0px 0px;
     outline: 1px solid #D6E7D2;
-    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/contact_active_btn.svg);
+    background-image: url(/plants/assets/img/contact_active_btn.svg);
 }
 .contacts__select__body {
     display: none;
@@ -569,16 +569,16 @@ a:hover {
     transform: scale(1.2);
 }
 .footer_socialList__item__imgInst {
-    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/inst.svg);
+    background-image: url(/plants/assets/img/inst.svg);
 }
 .footer_socialList__item__imgFb {
-    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/fb.svg);
+    background-image: url(/plants/assets/img/fb.svg);
 }
 .footer_socialList__item__imgTw {
-    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/tw.svg);
+    background-image: url(/plants/assets/img/tw.svg);
 }
 .footer_socialList__item__imgPinterest {
-    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/pinterest.svg);
+    background-image: url(/plants/assets/img/pinterest.svg);
 }
 
 
@@ -766,22 +766,22 @@ a:hover {
         padding-bottom: 0px;
     }
     .service__item__imgFirst {
-        background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/firstTablet.png);
+        background-image: url(/plants/assets/img/firstTablet.png);
     }
     .service__item__imgSecond {
-        background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/secondTablet.png);
+        background-image: url(/plants/assets/img/secondTablet.png);
     }
     .service__item__imgThird {
-        background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/thirdTablet.png);
+        background-image: url(/plants/assets/img/thirdTablet.png);
     }
     .service__item__imgFourth {
-        background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/fourthTablet.png);
+        background-image: url(/plants/assets/img/fourthTablet.png);
     }
     .service__item__imgFifth {
-        background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/fifthTablet.png);
+        background-image: url(/plants/assets/img/fifthTablet.png);
     }
     .service__item__imgSixth {
-        background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/sixthTablet.png);
+        background-image: url(/plants/assets/img/sixthTablet.png);
     }
 
 
@@ -1034,22 +1034,22 @@ a:hover {
         padding-bottom: 0px;
     }
     .service__item__imgFirst {
-        background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/firstTablet.png);
+        background-image: url(/plants/assets/img/firstTablet.png);
     }
     .service__item__imgSecond {
-        background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/secondTablet.png);
+        background-image: url(/plants/assets/img/secondTablet.png);
     }
     .service__item__imgThird {
-        background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/thirdTablet.png);
+        background-image: url(/plants/assets/img/thirdTablet.png);
     }
     .service__item__imgFourth {
-        background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/fourthTablet.png);
+        background-image: url(/plants/assets/img/fourthTablet.png);
     }
     .service__item__imgFifth {
-        background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/fifthTablet.png);
+        background-image: url(/plants/assets/img/fifthTablet.png);
     }
     .service__item__imgSixth {
-        background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/sixthTablet.png);
+        background-image: url(/plants/assets/img/sixthTablet.png);
     }
 
 
