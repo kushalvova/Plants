@@ -1,0 +1,1360 @@
+* {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    /* border: #E06733 solid 1px; */
+  }
+html {
+    margin: 0 auto;
+    min-width: 1440px;
+    scroll-behavior: smooth;
+    font-style: normal;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.header {
+    height: 134px;
+    font-family: 'Inika';
+    font-size: 16px;
+    line-height: 21px;
+}
+.backgroundDark {
+    background: #EDF2EC;
+}
+.backgroundLight {
+    background: #FFFFFF;
+}
+.container {
+    width: 1440px;
+    margin: auto;
+}
+.position {
+    display: flex;
+    align-items: center;
+}
+.header__wrapper {
+    width: 1220px;
+    height: 50px;
+    margin: 42px 110px;
+}
+.header__wrapper__logo {
+    min-width: 23px;
+    min-height: 23px;
+    margin-bottom: 9px;
+    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/logo_vector.svg);
+}
+.imgSittings {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.header__wrapper__text {
+    margin-left: 1px;
+    color: #000000;
+}
+.positionRight {
+    margin-left: auto;
+}
+.header__navibar__list {
+    margin: 2px;
+    list-style: none;
+}
+.header__navibar__item {
+    margin: 0px 0px 0px 46px;
+}
+.header__navibar__item:nth-child(2) {
+    width: 67px;
+}
+.header__navibar__item a{
+    color: #010201;
+    }
+a:link {
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+    font-weight: 700;
+    color: #E06733;
+}
+.themeTransition {
+    transition: 0.4s;
+}
+.themeTransitionLong {
+    transition: 0.4s;
+}
+.welcome {
+    height: 532px;
+    padding: 59px 114px 62px 99px;
+}
+.welcome__img {
+    width: 462px;
+    height: 424px;
+    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/leafs.png);
+}
+.welcome__wrapper {
+    width: 765px;
+    height: 424px;
+    padding-left: 220px;
+}
+.themeInter20 {
+    font-family: 'Inter';
+    font-size: 20px;
+    color: #636060;
+}
+.welcome__wrapper h1 {
+    margin: 0;
+    padding-top: 45px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+}
+.themeGray {
+    color: #717171;
+}
+.themeGreen {
+    color: #499A18;
+}
+.welcome__wrapper p {
+    margin: 0;
+    padding-top: 44px;
+    line-height: 35px;
+}
+.welcome__wrapper button {
+    width: 158px;
+    height: 44px;
+    margin-top: 48px;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    background-color: rgba(0, 0, 0, 0);
+}
+.welcome__wrapper button:hover {
+    background: #E06733;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+.about {
+    height: 666px;
+    padding: 93px 109px 94px 109px;
+}
+.about__wrapper {
+    width: 758px;
+    height: 479px;
+}
+.about__wrapper h2 {
+    margin: 0;
+    padding-top: 67px;
+    width: 463px;
+}
+.themeInika40 {
+    font-family: 'Inika';
+    font-size: 40px;
+    line-height: 52px;
+}
+.themeOrange {
+    color: #E06733; 
+}
+.about__wrapper p {
+    margin: 0;
+    padding-top: 40px;
+    width: 605px;
+    line-height: 30px;
+}
+.about__img {
+    width: 464px;
+    height: 479px;
+    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/houseplant_1.png);
+}
+.service {
+    height: 1300px;
+}
+.service__content {
+    padding-left: 109px;
+    width: 1115px;
+}
+.service__content h2 {
+    margin: 0;
+    padding-top: 40px;
+    width: 306px;
+}
+.positionBtn {
+    margin-left: auto;
+}
+.btn {
+    width: 160px;
+    height: 50px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    font-family: 'Inika';
+    font-size: 20px;
+    line-height: 26px;
+    color: #E06733;
+    background-color: rgba(0, 0, 0, 0);
+}
+.service__content__btn {
+    margin-top: 43px;
+    margin-left: 35px;
+}
+.service__content__btnActive {
+    background: #E06733;
+    color: #FFFFFF;
+}
+.service__wrapper {
+    width: 1222px;
+    height: 1012px;
+    margin-top: 52px;
+    margin-left: 109px;
+    margin-bottom: 0px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.service__item {
+    width: 330px;
+    height: 450px;
+}
+.service__itemBlur{
+    filter: blur(2px);
+}
+.service__item__img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 330px;
+    height: 350px;
+}
+.service__item__text {
+    width: 330px;
+    height: 100px;
+    border-bottom-left-radius:  20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #E3E1D5;
+    border-top: 0px;
+    line-height: 20px;
+    text-align: center;
+}
+.service__item__text p:first-child {
+    font-weight: 700;
+}
+.service__item__text p:last-child {
+    font-size: 16px;
+}
+.service__item__text p {
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.service__item__imgFirst {
+    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/first.png);
+}
+.service__item__imgSecond {
+    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/second.png);
+}
+.service__item__imgThird {
+    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/third.png);
+}
+.service__item__imgFourth {
+    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/fourth.png);
+}
+.service__item__imgFifth {
+    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/fifth.png);
+}
+.service__item__imgSixth {
+    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/sixth.png);
+}
+.prices {
+    height: 558px;
+    font-weight: 700;
+}
+.themeBlack {
+    color: #000000;
+}
+.prices__block {
+    width: 720px;
+    height: 548px;
+    padding: 0px 109px;
+}
+.prices__block h2 {
+    line-height: 48px;
+    font-weight: 700;
+}
+.themeInter40 {
+    font-family: 'Inter';
+    font-size: 40px;
+}
+.accordion {
+    width: 332px;
+    height: 282px;
+    margin-top: 61px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+}
+.accordion__header {
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    padding-left: 39px;
+    padding-top: 1px;
+    cursor: pointer;
+}
+.accordion__itemShow .accordion__header {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: #D6E7D2;
+}
+.accordionBtn {
+    width: 16px;
+    height: 16px;
+    margin-left: auto;
+}
+.accordion__header__img{
+    margin-right: 41px;
+    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/price_unactive_btn.svg);
+}
+.accordion__itemShow .accordion__header__img {
+    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/price_active_btn.svg);
+}
+.accordion__body {
+    display: none;
+}
+.accordion__itemShow .accordion__body {
+    display: block;
+    width: 250px;
+    height: 109px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #D6E7D2;
+}
+.accordion__body__line {
+    width: 164px;
+    height: 1px;
+    margin: -5px 0px 0px 40px;
+    background-color: #AEA1A1;
+}
+.accordion__body p {
+    width: 210px;
+    margin: 0px;
+    padding: 6px 0px 0px 39px;
+}
+.accordion__body p:nth-child(2) {
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: 300;
+}
+.accordion__body p:nth-child(3) {
+    font-size: 12px;
+    font-weight: 400;
+}
+.accordion__body p span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #E06733;
+}
+.accordion__body__btn {
+    margin-top: 9px;
+    margin-left: 39px;
+    width: 86px;
+    height: 25px;
+    border-radius: 10px;
+    border: 0px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #717171;
+    background-color: #ffffff;
+    
+}
+.accordion__body__btn:hover {
+    background: #E06733;
+    border: 1px solid #E06733;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+.prices__block__text {
+    margin: 0px;
+    padding-top: 34px;
+    text-align: right;
+    line-height: 50px;
+}
+.prices__block__btn {
+    margin-top: 40px;
+    margin-left: 340px;
+    font-weight: 700;
+}
+.prices__block__btn:hover {
+    background: #E06733;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+.prices__img {
+    margin-top: 35px;
+    width: 157px;
+    height: 187px;
+    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/small_leafs.png);
+}
+.contacts {
+    height: 550px;
+    align-items: flex-start;
+}
+.contacts__img {
+    display: block;
+    width: 400px;
+    height: 497px;
+    margin-top: 53px;
+    margin-left: 109px;
+    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/contact_woman_1.png);
+}
+.contacts h2 {
+    margin: 0px;
+    padding-top: 60px;
+    padding-left: 112px;
+    font-weight: 700;
+}
+.contacts__select {
+    margin-left: 370px;
+}
+.contacts__select__header {
+    width: 450px;
+    height: 50px;
+    margin-top: 36px;
+    padding-top: 5px;
+    padding-left: 22px;
+    background-color: #d6e7d2;
+    border: none;
+    border-radius: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.251);
+    cursor: pointer;
+    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/contact_unactive_btn.svg);
+    background-size: 16px ;
+    background-repeat: no-repeat;
+    background-position: top 17px left 401px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+}
+.contacts__select__header:hover {
+    background-color: #C1E698;
+    box-shadow: 0px 0px 0px;
+    outline: 1px solid #D6E7D2;
+    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/contact_active_btn.svg);
+}
+.contacts__selectShow .contacts__select__header {
+    background-color: #C1E698;
+    box-shadow: 0px 0px 0px;
+    outline: 1px solid #D6E7D2;
+    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/contact_active_btn.svg);
+}
+.contacts__select__headerCityActive {
+    font-size: 16px;
+    background-color: #C1E698;
+    box-shadow: 0px 0px 0px;
+    outline: 1px solid #D6E7D2;
+    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/contact_active_btn.svg);
+}
+.contacts__select__body {
+    display: none;
+    width: 450px;
+    height: 234px;
+    padding-left: 20px;
+    padding-top: 27px;
+    background-color: #DCE9D9;
+}
+.contacts__selectShow .contacts__select__body {
+    display: block;
+}
+.contacts__select__item {
+    width: 380px;
+    height: 35px;
+    margin-bottom: 12px;
+    padding-left: 8px;
+    border-bottom: 1px solid #D9D9D9;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #499A18;
+    cursor: pointer;
+}
+.contacts__select__item:hover {
+    border-bottom: 1px solid #717171;
+    color: #717171;
+}
+.contacts__card {
+    display: none;
+    width: 450px;
+    height: 214px;
+    margin-top: 48px;
+    padding-top: 14px;
+    padding-left: 30px;
+    border:1.5px solid #000000;
+    border-radius: 20px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.contacts__cardShow {
+    display: block;
+}
+.contacts__card tr {
+    height: 39px;
+}
+.contacts__card td:last-child {
+    padding-left: 8px;
+    color: #717171;
+}
+.contacts__card__btn {
+    margin-top: 18px;
+    margin-left: 130px;
+    width: 122px;
+    height: 26px;
+    border-radius: 5px;
+    border: 1px solid #E06733;
+    font-family: 'Inika';
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    color: #717171;
+    background-color: #EDF2EC;
+    
+}
+.contacts__card__btn:hover {
+    background: #E06733;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+.footer {
+    height: 130px;
+    padding-left: 108px;
+    padding-right: 109px;
+    justify-content: space-between;
+    line-height: 50px;
+}
+.footer__data {
+    width: 200px;
+}
+.footer__data span {
+    padding-right: 15px;
+}
+.footer p {
+    padding-left: 47px;
+}
+.footer_socialList__item {
+    width: 32px;
+    height: 32px;
+    margin-left: 20px;
+    background-position: center;
+    list-style: none;
+}
+.footer_socialList__item:hover {
+    cursor: pointer;
+    transition: 0.4s;
+    transform: scale(1.2);
+}
+.footer_socialList__item__imgInst {
+    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/inst.svg);
+}
+.footer_socialList__item__imgFb {
+    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/fb.svg);
+}
+.footer_socialList__item__imgTw {
+    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/tw.svg);
+}
+.footer_socialList__item__imgPinterest {
+    background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/pinterest.svg);
+}
+
+
+/*! Media start */
+
+@media screen and (max-width: 1439px) {
+
+
+/** Header */
+
+
+    html {
+        min-width: 320px;
+    }
+    body {
+        width: 100vw;
+        min-width: 320px;
+    }    
+    .header {
+        height: 117px;
+    }
+    .container {
+        width: 100vw;
+        min-width: 320px;
+    }    
+    .header__wrapper {
+        width: 100vw;
+        min-width: 320px;
+        max-width: 925px;
+        margin: auto;
+        margin: auto;
+        padding-left: 47px;
+    }
+    .header__wrapper__logo {
+        margin-bottom: 7px;
+    }
+    .header__wrapper__text {
+        margin-left: 0px;
+        margin-top: 21px;
+    }
+    .header__navibar__item {
+        margin: 5px 47px 0px 0px;
+    }
+
+
+/** Section welcom */
+
+
+    .welcome {
+        height: 420px;
+        max-width: 925px;
+        margin: auto;
+        padding: 0px 50px 26px 50px;
+        justify-content: space-between;
+    }
+    .welcome__img {
+        width: 286px;
+        height: 262px;
+        margin-left: 38px;
+        margin-bottom: 60px;
+        order: 1;
+    }
+    .welcome__wrapper {
+        width: 346px;
+        height: 310px;
+        padding-left: 0px;
+    }
+    .welcome__wrapper h1 {
+        min-width: 278px;
+        margin: 0;
+        padding-top: 0px;
+        padding-bottom: 30px;
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .welcome__wrapper p {
+        min-width: 278px;
+        margin: 0;
+        padding-top: 0px;
+        padding-left: 5px;
+        padding-bottom: 30px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+     .welcome__wrapper button {
+        margin-top: 5px;
+    }
+    
+
+/** Section about us*/
+
+
+    .about {
+        height: 783px;
+        padding: 0px 0px 0px 0px;
+        display: grid;
+        align-items: start;
+    }
+    .about__wrapper {
+        width: 100%;
+        height: 100%;
+    }
+    .about__wrapper h2 {
+        padding: 40px 200px 52px 200px;
+        margin: auto;
+        width: 100%;
+        max-width: 925px;
+        font-size: 35px;
+        line-height: 45px;
+        text-align: center;
+    }
+    .about__wrapper p {
+        margin: auto;
+        padding: 0px 50px 0px 50px;
+        width: 100%;
+        max-width: 925px;
+        line-height: 30px;
+    }
+    .about__wrap__img {
+        display: flex;
+        flex-direction: column;
+    }
+    .about__img {
+        margin-top: -25px;
+        width: 100%;
+        height: 100%;
+        width: 250px;
+        height: 258px;
+    }
+
+
+/** Section service*/
+
+
+    .service {
+        height: 1780px;
+    }
+    .service__content {
+        padding-left: 50px;
+        margin: auto;
+        width: 100%;
+        max-width: 925px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .service__content h2 {
+        margin: 0;
+        padding-top: 61px;
+        width: 306px;
+        font-size: 35px;
+        line-height: 45.5px;
+    }
+    .positionBtn {
+        margin-left: 0px;
+        
+    }
+    .service__content__btn {
+        margin-top: 42px;
+        margin-left: 0px;
+        margin-right: 35px;
+    }
+    .service__wrapper {
+        width: 100%;
+        max-width: 668px;
+        height: 1466px;
+        margin: 20px auto;
+    }
+    .service__item {
+        width: 280px;
+        height: 450px;
+    }
+    .service__item__img {
+        width: 280px;
+        height: 350px;
+    }
+    .service__item__text {
+        width: 280px;
+        height: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .service__item__text p {
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+    .service__item__imgFirst {
+        background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/firstTablet.png);
+    }
+    .service__item__imgSecond {
+        background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/secondTablet.png);
+    }
+    .service__item__imgThird {
+        background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/thirdTablet.png);
+    }
+    .service__item__imgFourth {
+        background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/fourthTablet.png);
+    }
+    .service__item__imgFifth {
+        background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/fifthTablet.png);
+    }
+    .service__item__imgSixth {
+        background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/sixthTablet.png);
+    }
+
+
+/** Section prices*/
+
+
+    .prices {
+        height: 585px;
+        margin: auto;
+        width: 100%;
+        max-width: 925px;
+    }
+    .prices__block {
+        width: 50%;
+        padding: 0px 50px;
+    }
+    .prices__blockRight {
+        display: flex;
+        flex-direction: column;
+    }
+    .prices__block h2 {
+        margin: 22px 0px 0px 14px;
+        font-size: 35px;
+        line-height: 42px;
+        font-weight: 700;
+    }
+    .prices__block__text {
+        max-width: 285px;
+        margin-left: auto;
+        padding-top: 122px;
+        text-align: right;
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .prices__block__btnPosition {
+        margin-left: auto;
+    }
+    .prices__block__btn {
+        margin-top: 28px;
+        margin-left: auto;
+        margin-right: 0px;
+    }
+    .prices__img {
+        margin-top: 30px;
+    }
+
+
+/** Section contacts*/
+
+
+    .contacts {
+        height: 739px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contacts__img {
+        width: 220px;
+        height: 248px;
+        margin: auto auto 0px auto;
+        background-position-x: 20px;
+        order: 1;
+    }
+    .contacts h2 {
+        width: 100%;
+        padding-top: 40px;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .contacts__select {
+        margin-top: 60px;
+        margin-left: auto;
+    }
+    .contacts__card {
+        margin-top: 60px;
+    }
+
+
+/** Section footer*/
+
+
+    .footer {
+        height: 181px;
+        flex-direction: column;
+        padding-top: 25px;
+        justify-content: flex-start;
+        line-height: 40px; 
+    }
+    .footer__data {
+        width: 210px;
+        text-align: center;
+    }
+    .footer__data span {
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+    .footer__data span:last-child {
+        display: inline-flex;
+        width: 78px;
+    }
+    .footer p {
+        padding-left: 0px;
+        padding-bottom: 17px;
+        margin: 0px;
+    }
+    .footer__socialList {
+        margin: 0px;
+        padding: 0px;   
+    }
+    .footer_socialList__item {
+        width: 31px;
+        height: 31px;
+        margin-left: 11px;
+        margin-right: 11px;
+        background-position: center;
+        list-style: none;
+    }
+
+
+}
+
+
+@media screen and (max-width: 755px) {
+
+
+/** Header */
+    
+    
+    .header {
+        height: 96px;
+    }
+    .header__wrapper {
+        padding-left: 23px;
+    }
+    
+    
+/** Section welcome */
+    
+    
+    .welcome {
+        height: 300px;
+        margin: auto;
+        padding: 24px 0px 0px 25px;
+        justify-content: flex-start;
+    }
+    .welcome__img {
+        margin: 0px;
+    }
+    .welcome__wrapper {
+        width: 346px;
+        height: 310px;
+        padding-left: 0px;
+    }
+    .welcome__wrapper h1 {
+        padding-top: 19px;
+        padding-bottom: 21px;
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .welcome__wrapper p {
+        padding-left: 0px;
+        padding-right: 18px;
+        padding-bottom: 20px;
+    }
+    .welcome__wrapper button {
+        width: 100px;
+        height: 34px;
+        margin-top: 5px;
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+
+/** Section about */
+
+
+    .about {
+        height: 516px;
+    }
+    .about__wrapper h2 {
+        padding: 0;
+        padding-top: 30px;
+        padding-bottom: 16px;
+        max-width: 288px; 
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .about__wrapper p {
+        padding: 0px 10px;
+        max-width: 350px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .about__img {
+        width: 150px;
+        height: 157px;
+    }
+
+
+/** Section service */
+
+
+    .service {
+        height: 1780px;
+    }
+    .service__content {
+        padding-left: 25px;
+    }
+    .service__content h2 {
+        padding-top: 30px;
+        padding-bottom: 31px;
+        width: 187px;
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .positionBtn {
+        margin-left: 0px;
+    }
+    .btn {
+        width: 121px;
+        height: 35px;
+        font-size: 15px;
+    }
+    .service__content__btn {
+        margin-top: 9px;
+        margin-right: 7px; 
+    }
+    .service__wrapper {
+        width: 100%;
+        max-width: 600px;
+        height: 1510px;
+        margin: 21px auto;
+    }
+    .service__item {
+        width: 279px;
+        height: 450px;
+    }
+    .service__item__img {
+        width: 279px;
+        height: 350px;
+    }
+    .service__item__text {
+        width: 279px;
+        height: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .service__item__text p {
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+    .service__item__imgFirst {
+        background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/firstTablet.png);
+    }
+    .service__item__imgSecond {
+        background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/secondTablet.png);
+    }
+    .service__item__imgThird {
+        background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/thirdTablet.png);
+    }
+    .service__item__imgFourth {
+        background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/fourthTablet.png);
+    }
+    .service__item__imgFifth {
+        background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/fifthTablet.png);
+    }
+    .service__item__imgSixth {
+        background-image: url(/kushalvova-JSFEPRESCHOOL2022Q4/plants/assets/img/sixthTablet.png);
+    }
+
+
+/** Section prices */
+
+
+    .prices {
+        height: 512px;
+        flex-direction: column;
+    }
+    .prices__block {
+        width: 230px;
+        padding: 0px 0px;
+    }
+    .prices__block h2 {
+        margin: 25px 0px 0px 0px;
+        text-align: center;
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .accordion {
+        width: 224px;
+        height: 235px;
+        margin-top: 37px;
+        margin-left: 3px;
+    }
+    .accordion__header {
+        width: 180px;
+        padding-left: 31px;
+        font-size: 15px;
+    }
+    .accordion__itemShow .accordion__header {
+        height: 39px;
+    }
+    .accordion__itemShow .accordion__body {
+        width: 180px;
+        height: 89px;
+    }
+    .accordion__body__line {
+        width: 140px;
+        margin: -9px 20px 0px 20px;
+    }
+    .accordion__body p {
+        width: 180px;
+        margin: 0px;
+        padding: 2px 20px 0px 20px;
+    }
+    .accordion__body__btn {
+        margin: 2px auto 0px 45px;
+    }
+    .prices__block__text {
+        padding-top: 20px;
+        text-align: center;
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .prices__block__btnPosition {
+        margin: auto;
+    }
+    .prices__block form {
+        margin-top: 0px;
+    }
+    .prices__block__btn {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .prices__img {
+        display: none;
+    }
+
+
+/** Section contacts */
+
+
+    .contacts {
+        height: 445px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contacts__img {
+        width: 100px;
+        height: 124px;
+        margin: auto auto 0px auto;
+        background-position-x: -2px;
+    }
+    .contacts__imgShow {
+        display: none;
+    }
+    .contacts h2 {
+        padding-top: 15px;
+        font-size: 25px;
+    }
+    .contacts__select {
+        width: 300px;
+        margin-top: 0px;
+    }
+
+    .contacts__select__header {
+        width: inherit;
+        background-position: top 17px right 20px;
+    }
+    .contacts__select__body {
+        width: inherit;
+    }
+    .contacts__select__item {
+        width: 250px;
+    }
+    .contacts__card {
+        width: 280px;
+        height: 214px;
+        margin-top: 48px;
+        margin-left: 10px;
+        padding-top: 14px;
+        padding-left: 30px;
+    }
+    .contacts__card td:first-child {
+        width: 75px;
+        padding-top: 10px;
+        padding-left: 3px;
+    }
+    .contacts__card td:last-child {
+        width: 150px;
+        padding-top: 10px;
+        padding-left: 5px;
+    }
+    .contacts__card__btn {
+        margin-top: 15px;
+        margin-left: 55px;
+    }
+
+
+/** Section footer */
+
+
+    .footer {
+        height: 136px;
+        padding-top: 14px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .footer p {
+        padding-bottom: 5px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 700px) {
+    .header__wrapper {
+        max-width: 100vw;
+        padding-right: 23px;
+    }
+    .header__navibar__list {
+        padding: 0px;
+        max-width: calc(100vw - 90px);
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    .header__navibar__item {
+        width: auto;
+        margin-left: 20px;
+        margin-right: 0px;
+        line-height: 16px;
+    } 
+    .header__navibar__item:nth-child(2) {
+        width: 63px;
+    }
+}
+
+
+@media screen and (max-width: 680px) {
+    .welcome {
+        max-width: 350px;
+        padding-left: 10px;
+    }
+    .welcome__wrapper p {
+        padding: 0px 0px 20px;;
+    }
+    .welcome__img {
+        display: none;
+    }
+    .service {
+        height: 3150px;
+    }
+    .service__wrapper {
+        max-width: 279px;
+        height: 2910px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header__navibar__list {
+        max-width: 260px;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 381px) {
+    .header__navibar {
+        position: fixed;
+        width: 100%;
+        min-width: 100vw;
+        height: 270px;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        padding-top: 20px;
+        transform: translateX(100%);
+        transition: 0.2s all linear;
+        background-color: rgba(200, 205, 199, 0.95);
+    }
+    .header__navibarActive {
+        transform: translateX(0);
+    }
+    .header__wrapper {
+        margin: 0px;
+    }
+    .header__navibar__list {
+        flex-direction: column;
+        width: 0;
+        padding-left: 10px;
+    }
+    .header__navibar__item {
+        width: 100%;
+        font-size: 24px;
+        line-height: 40px;
+        text-align: start;
+    }
+    .header__navibar__item:nth-child(2) {
+        width: 100%;
+    }
+    .header__navibar__close {
+        width: 34px;
+        height: 34px;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        z-index: 20;
+    }
+    .header__navibar__close__line {
+        display: block;
+        height: 3px;
+        width: 100%;
+        background-color: #000000;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .header__navibar__close__line:first-child {
+        transform: translateY(-50%) rotate(45deg); 
+    }
+    .header__navibar__close__line:last-child {
+        transform: translateY(-50%) rotate(-45deg); 
+    }
+    .header__burger {
+        width: 40px;
+        height: 26px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: auto;
+    }
+    .header__burger__line {
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #717171;
+    }
+}
+
+
+@media screen and (max-width: 355px) {
+    .welcome {
+        padding-top: 22px;
+    }
+    .welcome__wrapper {
+        width: 87vw;
+    }
+    .welcome__wrapper h1 {
+        padding-top: 17px;
+        padding-bottom: 15px;
+    }
+    .welcome__wrapper p {
+        padding-bottom: 15px;
+    }
+    .welcome__wrapper button {
+        margin-top: 3px;
+    }
+    .contacts__select {
+        width: 270px;
+    }
+    .contacts__select__item {
+        width: 230px;
+    }
+    .contacts__card {
+        width: 270px;
+        margin-left: 0px;
+    }
+}
+
+
+@media screen and (max-width: 319px) {
+    html {
+        overflow-x: auto;
+    }
+}
